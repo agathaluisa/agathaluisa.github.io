@@ -1,8 +1,12 @@
 // CONTAGEM DE 1 A 20
 function oneThroughTwenty() {
-   for(let count = 1; count <= 20; count++){
-     console.log(count)
-   } 
+  let arrNumbers = []
+
+  for(let count = 1; count <= 20; count++){
+    arrNumbers.push(count)
+  }
+
+  return arrNumbers
 }
 console.log(oneThroughTwenty())
 
